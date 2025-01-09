@@ -1,0 +1,2 @@
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/Tank_guide_34s.mp4 filter=lfs diff=lfs merge=lfs -text
