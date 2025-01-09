@@ -1,0 +1,124 @@
+/* Reset styling */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Kroppens grunnleggende styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(270deg, #ff7eb3, #ff758c, #ff5733);
+    background-size: 600% 600%;
+    animation: gradientAnimation 8s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/* Navigasjonsmeny */
+header {
+    background-color: #33333366;
+    color: #fff;
+    padding: 10px 0;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+header nav ul li {
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hovedinnhold */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #33333366;
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#picture {
+    padding: 40px;
+    width: 75%;
+    height: 100%;
+    border-radius: 60px;
+}
+
+.centered-button {
+    position: absolute;
+    top: 57.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.centered-button:hover {
+    background-color: #555;
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.video-explanation {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#divider {
+
+}
+
+
