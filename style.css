@@ -1,11 +1,10 @@
-/* Reset styling */
 body, h1, p, ul, li, a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Kroppens grunnleggende styling */
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
@@ -29,7 +28,7 @@ body {
         background-position: 0% 50%;
     }
 }
-/* Navigasjonsmeny */
+
 header {
     background-color: #33333366;
     color: #fff;
@@ -52,14 +51,14 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Hovedinnhold */
+
 main {
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 10px 0;
