@@ -2,13 +2,14 @@ body, h1, p, ul, li, a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add this line to apply text shadow */
 }
 
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #ffffff;
     line-height: 1.6;
     margin: 0;
     height: 100vh;
@@ -91,6 +92,7 @@ footer {
     color: #000000;
     padding: 10px 20px;
     text-decoration: none;
+    text-shadow: none;
     border-radius: 5px;
     font-weight: bold;
     text-align: center;
@@ -119,5 +121,3 @@ footer {
 #divider {
 
 }
-
-
