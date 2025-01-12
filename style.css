@@ -1,10 +1,14 @@
-body, h1, p, ul, li, a {
+body,
+h1,
+p,
+ul,
+li,
+a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -22,9 +26,11 @@ body {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
@@ -35,30 +41,32 @@ header {
     color: #fff;
     padding: 10px 0;
 }
+
 header nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
 }
+
 header nav ul li {
     margin: 0 15px;
 }
+
 header nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
+
 header nav ul li a:hover {
     text-decoration: underline;
 }
-
 
 main {
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
 }
-
 
 footer {
     text-align: center;
@@ -118,7 +126,4 @@ footer {
     margin: 20px 0;
 }
 
-#divider {
-
-    
-}
+#divider {}
